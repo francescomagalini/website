@@ -138,6 +138,27 @@ header .container {
     font-size: 0.9rem;
 }
 
+.language-switcher {
+    margin-right: 10px;
+    padding: 8px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+}
+
+.language-switcher:focus {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 2px;
+}
+
+#mobile-menu .language-switcher {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
 /* User Info */
 .user-info-header {
     display: flex;

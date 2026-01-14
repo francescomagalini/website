@@ -28,6 +28,14 @@
 </ul>
             </nav>
             <div class="auth-buttons">
+                <select class="language-switcher" aria-label="Language">
+                    <option value="en">EN</option>
+                    <option value="it">IT</option>
+                    <option value="fr">FR</option>
+                    <option value="nl">NL</option>
+                    <option value="de">DE</option>
+                    <option value="es">ES</option>
+                </select>
                 <a class="btn btn-primary" href="#contact">Contact</a>
             </div>
             <div id="mobile-menu-btn">
@@ -44,10 +52,18 @@
             <li><a href="#about">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
 </ul>
-        <div class="mobile-menu-footer">
-            <a class="btn btn-primary" href="#contact">Contact</a>
-        </div>
-    </div>
+	        <div class="mobile-menu-footer">
+                <select class="language-switcher" aria-label="Language">
+                    <option value="en">EN</option>
+                    <option value="it">IT</option>
+                    <option value="fr">FR</option>
+                    <option value="nl">NL</option>
+                    <option value="de">DE</option>
+                    <option value="es">ES</option>
+                </select>
+	            <a class="btn btn-primary" href="#contact">Contact</a>
+	        </div>
+	    </div>
 
     <section id="home" class="hero">
         <div class="container">
@@ -300,6 +316,8 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
-</html>
+	    <script src="vendor/i18next.min.js"></script>
+	    <script src="i18n.js"></script>
+	    <script src="script.js"></script>
+	</body>
+	</html>

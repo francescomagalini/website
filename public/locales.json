@@ -1,0 +1,1046 @@
+{
+  "en": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Francesco Magalini official website."
+    },
+    "nav": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "services": "Services",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "cta": {
+      "header": "Contact"
+    },
+    "hero": {
+      "title": "Innovative Solutions for Microsoft Ecosystems",
+      "subtitle": "Francesco Magalini delivers cutting-edge software solutions that empower businesses to thrive in the digital era.",
+      "primaryCta": "Explore Solutions",
+      "secondaryCta": "Contact Us"
+    },
+    "solutions": {
+      "title": "Our Microsoft-Powered Solutions",
+      "subtitle": "As a certified Microsoft ISV vendor, we build products that integrate seamlessly with the Microsoft ecosystem.",
+      "cards": [
+        {
+          "title": "Azure Cloud Solutions",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Data & Analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Security Solutions",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "AI & Machine Learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "We offer comprehensive services to ensure your success with Microsoft technologies.",
+      "tabs": [
+        "Consulting",
+        "Implementation",
+        "Support",
+        "Training"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Microsoft Technology Consulting",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Solution Implementation",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Ongoing Support",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Microsoft Technology Training",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "About Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Years of Experience"
+        },
+        {
+          "title": "100+",
+          "text": "Satisfied Clients"
+        },
+        {
+          "title": "50+",
+          "text": "Microsoft Certified Professionals"
+        }
+      ],
+      "callout": {
+        "title": "Microsoft Partnership",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "subtitle": "Ready to transform your business with Microsoft technologies? Get in touch with our team.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "Online"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Solutions",
+          "links": [
+            "Azure Cloud",
+            "Data & Analytics",
+            "Security",
+            "AI & ML"
+          ]
+        },
+        {
+          "title": "Services",
+          "links": [
+            "Consulting",
+            "Implementation",
+            "Support",
+            "Training"
+          ]
+        },
+        {
+          "title": "Company",
+          "links": [
+            "About Us",
+            "Contact",
+            "Careers",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+      },
+      "copyright": "© {{year}} {{brand}}. All rights reserved."
+    }
+  },
+  "it": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Sito ufficiale di Francesco Magalini."
+    },
+    "nav": {
+      "home": "Home",
+      "solutions": "Soluzioni",
+      "services": "Servizi",
+      "about": "Chi siamo",
+      "contact": "Contatti"
+    },
+    "cta": {
+      "header": "Contatti"
+    },
+    "hero": {
+      "title": "Soluzioni innovative per l'ecosistema Microsoft",
+      "subtitle": "Francesco Magalini offre soluzioni software all'avanguardia per aiutare le aziende a crescere nell'era digitale.",
+      "primaryCta": "Scopri le soluzioni",
+      "secondaryCta": "Contattaci"
+    },
+    "solutions": {
+      "title": "Soluzioni basate su Microsoft",
+      "subtitle": "Come Microsoft ISV, realizziamo prodotti che si integrano in modo nativo con l'ecosistema Microsoft.",
+      "cards": [
+        {
+          "title": "Soluzioni Azure Cloud",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Dati e analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Soluzioni di sicurezza",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "AI e machine learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "I nostri servizi",
+      "subtitle": "Servizi completi per garantire il successo con le tecnologie Microsoft.",
+      "tabs": [
+        "Consulenza",
+        "Implementazione",
+        "Supporto",
+        "Formazione"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Consulenza su tecnologie Microsoft",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Implementazione soluzioni",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Supporto continuo",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Formazione su tecnologie Microsoft",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Chi è Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Anni di esperienza"
+        },
+        {
+          "title": "100+",
+          "text": "Clienti soddisfatti"
+        },
+        {
+          "title": "50+",
+          "text": "Professionisti certificati Microsoft"
+        }
+      ],
+      "callout": {
+        "title": "Partnership Microsoft",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Contattaci",
+      "subtitle": "Pronto a trasformare il tuo business con le tecnologie Microsoft? Scrivi al nostro team.",
+      "form": {
+        "name": "Nome",
+        "email": "Email",
+        "message": "Messaggio",
+        "send": "Invia"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "Online"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Soluzioni",
+          "links": [
+            "Azure Cloud",
+            "Dati e analytics",
+            "Sicurezza",
+            "AI e ML"
+          ]
+        },
+        {
+          "title": "Servizi",
+          "links": [
+            "Consulenza",
+            "Implementazione",
+            "Supporto",
+            "Formazione"
+          ]
+        },
+        {
+          "title": "Azienda",
+          "links": [
+            "Chi siamo",
+            "Contatti",
+            "Lavora con noi",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Informativa privacy",
+        "terms": "Termini di servizio"
+      },
+      "copyright": "© {{year}} {{brand}}. Tutti i diritti riservati."
+    }
+  },
+  "fr": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Site officiel d'Francesco Magalini."
+    },
+    "nav": {
+      "home": "Accueil",
+      "solutions": "Solutions",
+      "services": "Services",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "cta": {
+      "header": "Contact"
+    },
+    "hero": {
+      "title": "Solutions innovantes pour l'écosystème Microsoft",
+      "subtitle": "Francesco Magalini propose des solutions logicielles de pointe pour aider les entreprises à prospérer à l'ère numérique.",
+      "primaryCta": "Découvrir les solutions",
+      "secondaryCta": "Nous contacter"
+    },
+    "solutions": {
+      "title": "Solutions Microsoft",
+      "subtitle": "En tant que Microsoft ISV, nous créons des produits qui s'intègrent parfaitement à l'écosystème Microsoft.",
+      "cards": [
+        {
+          "title": "Solutions Azure Cloud",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Données et analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Solutions de sécurité",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "IA et machine learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "Nos services",
+      "subtitle": "Des services complets pour assurer votre réussite avec les technologies Microsoft.",
+      "tabs": [
+        "Conseil",
+        "Implémentation",
+        "Support",
+        "Formation"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Conseil technologies Microsoft",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Implémentation de solutions",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Support continu",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Formation technologies Microsoft",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "À propos d'Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Années d'expérience"
+        },
+        {
+          "title": "100+",
+          "text": "Clients satisfaits"
+        },
+        {
+          "title": "50+",
+          "text": "Professionnels certifiés Microsoft"
+        }
+      ],
+      "callout": {
+        "title": "Partenariat Microsoft",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Prêt à transformer votre entreprise avec les technologies Microsoft ? Contactez notre équipe.",
+      "form": {
+        "name": "Nom",
+        "email": "E-mail",
+        "message": "Message",
+        "send": "Envoyer"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "En ligne"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Solutions",
+          "links": [
+            "Azure Cloud",
+            "Données et analytics",
+            "Sécurité",
+            "IA et ML"
+          ]
+        },
+        {
+          "title": "Services",
+          "links": [
+            "Conseil",
+            "Implémentation",
+            "Support",
+            "Formation"
+          ]
+        },
+        {
+          "title": "Entreprise",
+          "links": [
+            "À propos",
+            "Contact",
+            "Carrières",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d'utilisation"
+      },
+      "copyright": "© {{year}} {{brand}}. Tous droits réservés."
+    }
+  },
+  "nl": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Officiële website van Francesco Magalini."
+    },
+    "nav": {
+      "home": "Home",
+      "solutions": "Oplossingen",
+      "services": "Diensten",
+      "about": "Over ons",
+      "contact": "Contact"
+    },
+    "cta": {
+      "header": "Contact"
+    },
+    "hero": {
+      "title": "Innovatieve oplossingen voor Microsoft ecosystemen",
+      "subtitle": "Francesco Magalini levert toonaangevende softwareoplossingen waarmee bedrijven kunnen groeien in het digitale tijdperk.",
+      "primaryCta": "Bekijk oplossingen",
+      "secondaryCta": "Neem contact op"
+    },
+    "solutions": {
+      "title": "Microsoft-oplossingen",
+      "subtitle": "Als gecertificeerde Microsoft ISV bouwen we producten die naadloos integreren met het Microsoft-ecosysteem.",
+      "cards": [
+        {
+          "title": "Azure Cloud oplossingen",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Data & analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Security oplossingen",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "AI & machine learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "Onze diensten",
+      "subtitle": "We bieden complete services om succes met Microsoft technologieën te garanderen.",
+      "tabs": [
+        "Consulting",
+        "Implementatie",
+        "Support",
+        "Training"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Microsoft technologie consulting",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Solution implementatie",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Doorlopende support",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Microsoft technologie training",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Over Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Jaar ervaring"
+        },
+        {
+          "title": "100+",
+          "text": "Tevreden klanten"
+        },
+        {
+          "title": "50+",
+          "text": "Microsoft gecertificeerde professionals"
+        }
+      ],
+      "callout": {
+        "title": "Microsoft partnership",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Klaar om je business te transformeren met Microsoft technologieën? Neem contact op met ons team.",
+      "form": {
+        "name": "Naam",
+        "email": "E-mail",
+        "message": "Bericht",
+        "send": "Verzenden"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "Online"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Oplossingen",
+          "links": [
+            "Azure Cloud",
+            "Data & analytics",
+            "Security",
+            "AI & ML"
+          ]
+        },
+        {
+          "title": "Diensten",
+          "links": [
+            "Consulting",
+            "Implementatie",
+            "Support",
+            "Training"
+          ]
+        },
+        {
+          "title": "Bedrijf",
+          "links": [
+            "Over ons",
+            "Contact",
+            "Carrières",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Privacybeleid",
+        "terms": "Servicevoorwaarden"
+      },
+      "copyright": "© {{year}} {{brand}}. Alle rechten voorbehouden."
+    }
+  },
+  "de": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Offizielle Website von Francesco Magalini."
+    },
+    "nav": {
+      "home": "Start",
+      "solutions": "Lösungen",
+      "services": "Services",
+      "about": "Über uns",
+      "contact": "Kontakt"
+    },
+    "cta": {
+      "header": "Kontakt"
+    },
+    "hero": {
+      "title": "Innovative Lösungen für Microsoft-Ökosysteme",
+      "subtitle": "Francesco Magalini liefert moderne Softwarelösungen, mit denen Unternehmen im digitalen Zeitalter erfolgreich sind.",
+      "primaryCta": "Lösungen ansehen",
+      "secondaryCta": "Kontakt aufnehmen"
+    },
+    "solutions": {
+      "title": "Microsoft-basierte Lösungen",
+      "subtitle": "Als zertifizierter Microsoft ISV entwickeln wir Produkte, die sich nahtlos in das Microsoft-Ökosystem integrieren.",
+      "cards": [
+        {
+          "title": "Azure Cloud Lösungen",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Daten und Analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Security Lösungen",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "KI und Machine Learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "Unsere Services",
+      "subtitle": "Umfassende Services für Ihren Erfolg mit Microsoft Technologien.",
+      "tabs": [
+        "Consulting",
+        "Implementierung",
+        "Support",
+        "Training"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Microsoft Technology Consulting",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Solution Implementierung",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Laufender Support",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Microsoft Technology Training",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Über Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Jahre Erfahrung"
+        },
+        {
+          "title": "100+",
+          "text": "Zufriedene Kunden"
+        },
+        {
+          "title": "50+",
+          "text": "Microsoft zertifizierte Professionals"
+        }
+      ],
+      "callout": {
+        "title": "Microsoft Partnerschaft",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Bereit, Ihr Unternehmen mit Microsoft Technologien zu transformieren? Kontaktieren Sie unser Team.",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "send": "Senden"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "Online"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Lösungen",
+          "links": [
+            "Azure Cloud",
+            "Data & Analytics",
+            "Security",
+            "AI & ML"
+          ]
+        },
+        {
+          "title": "Services",
+          "links": [
+            "Consulting",
+            "Implementierung",
+            "Support",
+            "Training"
+          ]
+        },
+        {
+          "title": "Unternehmen",
+          "links": [
+            "Über uns",
+            "Kontakt",
+            "Karriere",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Datenschutzerklärung",
+        "terms": "Nutzungsbedingungen"
+      },
+      "copyright": "© {{year}} {{brand}}. Alle Rechte vorbehalten."
+    }
+  },
+  "es": {
+    "brand": {
+      "name": "Francesco Magalini",
+      "tagline": "Microsoft ISV Partner"
+    },
+    "meta": {
+      "title": "Francesco Magalini",
+      "description": "Sitio oficial de Francesco Magalini."
+    },
+    "nav": {
+      "home": "Inicio",
+      "solutions": "Soluciones",
+      "services": "Servicios",
+      "about": "Acerca de",
+      "contact": "Contacto"
+    },
+    "cta": {
+      "header": "Contacto"
+    },
+    "hero": {
+      "title": "Soluciones innovadoras para ecosistemas Microsoft",
+      "subtitle": "Francesco Magalini ofrece soluciones de software de vanguardia para ayudar a las empresas a prosperar en la era digital.",
+      "primaryCta": "Ver soluciones",
+      "secondaryCta": "Contáctanos"
+    },
+    "solutions": {
+      "title": "Soluciones Microsoft",
+      "subtitle": "Como Microsoft ISV, creamos productos que se integran perfectamente con el ecosistema Microsoft.",
+      "cards": [
+        {
+          "title": "Soluciones Azure Cloud",
+          "text": "Leverage the power of Azure to build scalable, secure, and reliable cloud applications."
+        },
+        {
+          "title": "Datos y analytics",
+          "text": "Transform your data into actionable insights with our analytics solutions."
+        },
+        {
+          "title": "Soluciones de seguridad",
+          "text": "Protect your business with advanced security solutions built on Microsoft technologies."
+        },
+        {
+          "title": "IA y machine learning",
+          "text": "Harness the power of AI to automate processes and gain competitive advantage."
+        }
+      ]
+    },
+    "services": {
+      "title": "Nuestros servicios",
+      "subtitle": "Servicios completos para asegurar tu éxito con tecnologías Microsoft.",
+      "tabs": [
+        "Consultoría",
+        "Implementación",
+        "Soporte",
+        "Formación"
+      ],
+      "panes": {
+        "consulting": {
+          "title": "Consultoría tecnológica Microsoft",
+          "text": "Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.",
+          "bullets": [
+            "Technology assessment and roadmapping",
+            "Solution architecture design",
+            "Migration planning",
+            "Cost optimization strategies"
+          ]
+        },
+        "implementation": {
+          "title": "Implementación de soluciones",
+          "text": "Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.",
+          "bullets": [
+            "Azure infrastructure setup",
+            "Custom application development",
+            "System integration",
+            "Data migration"
+          ]
+        },
+        "support": {
+          "title": "Soporte continuo",
+          "text": "We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.",
+          "bullets": [
+            "24/7 technical support",
+            "Proactive monitoring",
+            "Performance optimization",
+            "Regular updates and maintenance"
+          ]
+        },
+        "training": {
+          "title": "Formación en tecnologías Microsoft",
+          "text": "We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.",
+          "bullets": [
+            "Azure fundamentals and advanced topics",
+            "Microsoft 365 administration",
+            "Power Platform development",
+            "Security best practices"
+          ]
+        }
+      }
+    },
+    "about": {
+      "title": "Acerca de Francesco Magalini",
+      "p1": "Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.",
+      "p2": "Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.",
+      "stats": [
+        {
+          "title": "10+",
+          "text": "Años de experiencia"
+        },
+        {
+          "title": "100+",
+          "text": "Clientes satisfechos"
+        },
+        {
+          "title": "50+",
+          "text": "Profesionales certificados Microsoft"
+        }
+      ],
+      "callout": {
+        "title": "Partnership Microsoft",
+        "text": "As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance."
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "subtitle": "¿Listo para transformar tu negocio con tecnologías Microsoft? Ponte en contacto con nuestro equipo.",
+      "form": {
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje",
+        "send": "Enviar"
+      },
+      "info": [
+        "",
+        "francescomagalini.com",
+        "Online"
+      ]
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Soluciones",
+          "links": [
+            "Azure Cloud",
+            "Datos y analytics",
+            "Seguridad",
+            "IA y ML"
+          ]
+        },
+        {
+          "title": "Servicios",
+          "links": [
+            "Consultoría",
+            "Implementación",
+            "Soporte",
+            "Formación"
+          ]
+        },
+        {
+          "title": "Empresa",
+          "links": [
+            "Acerca de",
+            "Contacto",
+            "Carreras",
+            "Blog"
+          ]
+        }
+      ],
+      "legal": {
+        "privacy": "Política de privacidad",
+        "terms": "Términos del servicio"
+      },
+      "copyright": "© {{year}} {{brand}}. Todos los derechos reservados."
+    }
+  }
+}
