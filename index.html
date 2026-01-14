@@ -1,101 +1,287 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Francesco Magalini official website.">
     <title>Francesco Magalini</title>
-    <style>
-      :root {
-        color-scheme: light dark;
-        --bg: #0b1020;
-        --fg: #e7e9ee;
-        --muted: #9aa3b2;
-        --card: rgba(255, 255, 255, 0.06);
-        --border: rgba(255, 255, 255, 0.12);
-        --accent: #77d4ff;
-      }
-      @media (prefers-color-scheme: light) {
-        :root {
-          --bg: #f7f9fc;
-          --fg: #0f172a;
-          --muted: #4b5563;
-          --card: rgba(15, 23, 42, 0.04);
-          --border: rgba(15, 23, 42, 0.12);
-          --accent: #0369a1;
-        }
-      }
-      body {
-        margin: 0;
-        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
-          "Apple Color Emoji", "Segoe UI Emoji";
-        background: radial-gradient(1200px 600px at 20% 10%, rgba(119, 212, 255, 0.18), transparent),
-          radial-gradient(900px 500px at 80% 20%, rgba(34, 211, 238, 0.12), transparent), var(--bg);
-        color: var(--fg);
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 32px;
-      }
-      .card {
-        width: min(860px, 100%);
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        padding: 28px;
-        backdrop-filter: blur(10px);
-      }
-      h1 {
-        margin: 0 0 10px;
-        font-size: 30px;
-        letter-spacing: 0.2px;
-      }
-      p {
-        margin: 0 0 16px;
-        color: var(--muted);
-        line-height: 1.55;
-      }
-      .meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        margin-top: 18px;
-      }
-      .pill {
-        display: inline-flex;
-        gap: 8px;
-        align-items: center;
-        padding: 8px 10px;
-        border-radius: 999px;
-        border: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.08);
-      }
-      .dot {
-        width: 8px;
-        height: 8px;
-        border-radius: 999px;
-        background: var(--accent);
-        box-shadow: 0 0 0 4px rgba(119, 212, 255, 0.12);
-      }
-      code {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-          "Courier New", monospace;
-        font-size: 0.95em;
-      }
-    </style>
-  </head>
-  <body>
-    <main class="card">
-      <h1>Francesco Magalini</h1>
-      <p>Sample Static Web App deployed from <code>francescomagalini/website</code>.</p>
-      <p>If you can see this page on <code>francescomagalini.com</code> (or <code>www</code>), DNS is working.</p>
-      <div class="meta">
-        <span class="pill"><span class="dot"></span> status: <code>ok</code></span>
-        <span class="pill">generated: <code id="ts">—</code></span>
-      </div>
-      <script>
-        document.getElementById("ts").textContent = new Date().toISOString();
-      </script>
-    </main>
-  </body>
-</html>
+<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Francesco Magalini</h1>
+            </div>
+            <nav id="desktop-nav">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#solutions">Solutions</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+</ul>
+            </nav>
+<div id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
+    <div id="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovative Solutions for Microsoft Ecosystems</h1>
+                <p>Francesco Magalini delivers cutting-edge software solutions that empower businesses to thrive in the digital era.</p>
+                <div class="hero-buttons">
+                    <a href="#solutions" class="btn btn-primary">Explore Solutions</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="blob-animation"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-title">Our Microsoft-Powered Solutions</h2>
+            <p class="section-description">As a certified Microsoft ISV vendor, we build products that integrate seamlessly with the Microsoft ecosystem.</p>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Azure Cloud Solutions</h3>
+                    <p>Leverage the power of Azure to build scalable, secure, and reliable cloud applications.</p>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data & Analytics</h3>
+                    <p>Transform your data into actionable insights with our analytics solutions.</p>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security Solutions</h3>
+                    <p>Protect your business with advanced security solutions built on Microsoft technologies.</p>
+                </div>
+                
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI & Machine Learning</h3>
+                    <p>Harness the power of AI to automate processes and gain competitive advantage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-description">We offer comprehensive services to ensure your success with Microsoft technologies.</p>
+            
+            <div class="services-tabs">
+                <div class="tabs-navigation">
+                    <button class="tab-btn active" data-tab="consulting">Consulting</button>
+                    <button class="tab-btn" data-tab="implementation">Implementation</button>
+                    <button class="tab-btn" data-tab="support">Support</button>
+                    <button class="tab-btn" data-tab="training">Training</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="consulting">
+                        <h3>Microsoft Technology Consulting</h3>
+                        <p>Our expert consultants help you navigate the Microsoft ecosystem to find the right solutions for your business challenges. We analyze your requirements, recommend technologies, and create a roadmap for successful implementation.</p>
+                        <ul>
+                            <li>Technology assessment and roadmapping</li>
+                            <li>Solution architecture design</li>
+                            <li>Migration planning</li>
+                            <li>Cost optimization strategies</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane" id="implementation">
+                        <h3>Solution Implementation</h3>
+                        <p>Our implementation team ensures smooth deployment of Microsoft solutions in your environment. We follow best practices and industry standards to deliver high-quality implementations.</p>
+                        <ul>
+                            <li>Azure infrastructure setup</li>
+                            <li>Custom application development</li>
+                            <li>System integration</li>
+                            <li>Data migration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane" id="support">
+                        <h3>Ongoing Support</h3>
+                        <p>We provide comprehensive support for all our solutions, ensuring your systems run smoothly and efficiently. Our support team is available to address any issues that may arise.</p>
+                        <ul>
+                            <li>24/7 technical support</li>
+                            <li>Proactive monitoring</li>
+                            <li>Performance optimization</li>
+                            <li>Regular updates and maintenance</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane" id="training">
+                        <h3>Microsoft Technology Training</h3>
+                        <p>We offer training programs to help your team master Microsoft technologies. Our training sessions are designed to be practical and hands-on, focusing on real-world scenarios.</p>
+                        <ul>
+                            <li>Azure fundamentals and advanced topics</li>
+                            <li>Microsoft 365 administration</li>
+                            <li>Power Platform development</li>
+                            <li>Security best practices</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">About Francesco Magalini</h2>
+                <p>Francesco Magalini is a leading Microsoft Independent Software Vendor (ISV) dedicated to developing innovative solutions that help businesses leverage the full potential of Microsoft technologies.</p>
+                <p>Established in 2012 and based in Padova, Italy, our company (REA: PD - 408597) delivers high-quality software products and services that drive digital transformation and enable businesses to stay ahead in today's competitive landscape.</p>
+                
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Satisfied Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Microsoft Certified Professionals</p>
+                    </div>
+                </div>
+                
+                <div class="ms-partnership">
+                    <h3>Microsoft Partnership</h3>
+                    <p>As a certified Microsoft ISV, we have access to the latest technologies, resources, and support from Microsoft. This partnership allows us to deliver cutting-edge solutions that meet the highest standards of quality and performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-description">Ready to transform your business with Microsoft technologies? Get in touch with our team.</p>
+            
+            <div class="contact-container">
+                <div class="contact-form">
+                    <div class="contact-cta">
+                        <a class="btn btn-primary" href="mailto:info@francescomagalini.com">Email us</a>
+                    </div>
+</div>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@francescomagalini.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-building"></i>
+                        <p>francescomagalini.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Online</p>
+                    </div>
+                        
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Francesco Magalini</h2>
+                    <p>Microsoft ISV Partner</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Solutions</h3>
+                        <ul>
+                            <li><a href="#solutions">Azure Cloud</a></li>
+                            <li><a href="#solutions">Data & Analytics</a></li>
+                            <li><a href="#solutions">Security</a></li>
+                            <li><a href="#solutions">AI & ML</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#services">Consulting</a></li>
+                            <li><a href="#services">Implementation</a></li>
+                            <li><a href="#services">Support</a></li>
+                            <li><a href="#services">Training</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Francesco Magalini. All rights reserved. </p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
