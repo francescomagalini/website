@@ -123,19 +123,6 @@
     { selector: 'meta[name="description"]', attr: 'content', key: 'meta.description' }
   ];
 
-  function detectInitialLanguage() {
-    const url = new URL(window.location.href);
-    const urlLang = (url.searchParams.get('lang') || '').toLowerCase();
-    if (supportedLanguages.includes(urlLang)) return urlLang;
-
-    const stored = (window.localStorage.getItem(storageKey) || '').toLowerCase();
-    if (supportedLanguages.includes(stored)) return stored;
-
-    const browser = (navigator.language || '').slice(0, 2).toLowerCase();
-    if (supportedLanguages.includes(browser)) return browser;
-
-    return defaultLanguage;
-  }
 
   async function loadLocales() {
     const response = await fetch('/locales.json', { cache: 'no-cache' });
@@ -228,18 +215,28 @@
     }
 
     const resources = toI18nextResources(locales);
-    const initialLanguage = detectInitialLanguage();
+
+    const detector = window.i18nextBrowserLanguageDetector;
+    if (detector) {
+      i18next.use(detector);
+    }
 
     await i18next.init({
-      lng: initialLanguage,
       fallbackLng: defaultLanguage,
+      supportedLngs: supportedLanguages,
       resources,
+      detection: {
+        order: ["querystring", "localStorage", "navigator"],
+        caches: ["localStorage"],
+        lookupQuerystring: "lang",
+        lookupLocalStorage: storageKey
+      },
       interpolation: {
         escapeValue: false
       }
     });
 
-    setupLanguageSwitchers(initialLanguage);
+    setupLanguageSwitchers(i18next.language || defaultLanguage);
     applyTranslations();
   }
 
